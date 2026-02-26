@@ -52,7 +52,7 @@ async function scrapeJobs(maxPages = null) {
         }
 
         // Check for pagination button and ensure it's NOT disabled
-        nextPageButton = document.querySelector('button[data-ev-label="pagination_next_page"]');
+        nextPageButton = document.querySelector('a[data-ev-label="pagination_next_page"]');
         if (nextPageButton && !nextPageButton.disabled) {
             console.log("Clicking next page button");
             

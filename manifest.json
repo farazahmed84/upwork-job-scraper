@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Upwork Job Scraper",
     "homepage_url": "https://freelancetaskinsights.com/",
-    "version": "1.1",
+    "version": "1.2",
     "description": "Extract job titles and descriptions from Upwork search results and export as CSV.",
     "permissions": ["scripting", "activeTab"],
     "host_permissions": ["https://www.upwork.com/nx/search/jobs/*"],
